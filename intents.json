@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Bonsoir",
+        "Hi",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Bonjour, puisse vous aider",
+        "Salut !",
+        "Bonjour, avez-vous une demande?"
+
+      ]
+    },
+    {
+      "tag": "aurevoir",
+      "patterns": ["Bye", "au revoir", "bonne journée", "bonsoir"],
+      "responses": [
+        "A plus tard, merci de votre visite",
+        "Bonne journée",
+        "Au revoir ! Revenez bientôt."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Merci", "Merci", "C'est utile", "Merci beaucoup !"],
+      "responses": ["Heureux de vous aider !", "À tout moment !", "Mon plaisir"]
+    },
+    {
+      "tag": "Teams",
+      "patterns": [
+        "donne moi le lien de Microsoft Teams",
+        "microsoft teams",
+        "lien de teams"
+      ],
+      "responses": [
+        "https://teams.microsoft.com/_?lm=deeplink&lmsrc=NeutralHomePageWeb&cmpid=WebSignIn&culture=fr-fr&country=fr#/school/teams-grid/General?ctx=teamsGrid"
+      ]
+    },
+    {
+      "tag": "moodle",
+      "patterns": [
+        "donne moi le lien de moodle",
+        "moodle",
+        "lien de moodle"
+      ],
+      "responses": [
+        "https://moodle.myefrei.fr/"
+      ]
+    },
+    {
+      "tag": "aide_generale",
+      "patterns": [
+        "aide",
+        "FAQ",
+        "question par rapport à moodle",
+        "question sur moodle"
+      ],
+      "responses": [
+        "Vous cherchez dans quelles catégories : Etudes, Majeur, Stage ?"
+      ]
+    },
+    {
+      "tag": "Etudes",
+      "patterns": [
+        "Etudes",
+        "scolarité",
+        "je veux des renseignement sur les etudes",
+        "les etudes"
+      ],
+      "responses": [
+        "Cliquez sur ce lien et vous aurez tous les inforamtion à propos des études: https://moodle.myefrei.fr/course/view.php?id=3568"
+      ]
+    },
+    {
+      "tag": "Majeur",
+      "patterns": [
+        "Majeur",
+        "info sur les majeurs",
+        "information sur les majeurs d'efrei",
+        "je veux choisir une majeur"
+      ],
+      "responses": [
+        "Les différentes majeures au sein d'EFREI sont: Big data and machine learning, BI and Analytics, Software Enineering, IT for finance. Vous aurez plus d'information avec ce lien: https://www.efrei.fr/programme-grande-ecole/le-cycle-ingenieur/"
+      ]
+    },
+    {
+      "tag": "Stage",
+      "patterns": [
+        "Stage M1",
+        "Stage",
+        "information sur les stages",
+        "info sur les stages"
+      ],
+      "responses": [
+        "les stages M1 débutent le 02/11/2021 et finissent le 01/04/2022, les stages M2 débutent le 02/04/2022 et finissent le 30/09/2022"
+      ]
+    }
+  ]
+}
