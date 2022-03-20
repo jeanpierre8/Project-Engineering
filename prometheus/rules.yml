@@ -1,0 +1,15 @@
+groups:
+  - name: example
+    rules:
+      - alert: InstanceDown
+        expr: up == 0
+        for: 20s
+
+      - alert: HostOutOfMemory
+        expr: node_memory_MemAvailable / node_memory_MemTotal * 100 < 25
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Host out of memory (instance {{ $labels.instance }})"
+          description: "Node memory is filling up (< 25% left)\n  VALUE = {{ $value }}\n  LABELS: {{ $labels }}"

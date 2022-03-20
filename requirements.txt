@@ -1,2 +1,6 @@
 flask
 requests
+torch
+numpy
+nltk
+prometheus_flask_exporter
