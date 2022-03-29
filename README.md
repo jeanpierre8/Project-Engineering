@@ -1,5 +1,7 @@
 # Project engineering
 ## TRAN Jean-Pierre
+## DENJOY Gauthier
+## DALIBOT Victor
 
 ## Chatbot project: AI Chatbot
 
