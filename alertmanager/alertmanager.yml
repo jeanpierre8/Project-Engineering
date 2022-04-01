@@ -10,7 +10,7 @@ route:
 receivers:
 - name: 'slack-notifications'
   slack_configs:
-  - api_url: https://hooks.slack.com/services/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
+  - api_url: https://hooks.slack.com/services/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
     channel: '#général'
     send_resolved: true
 

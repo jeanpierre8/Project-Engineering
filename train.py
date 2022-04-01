@@ -5,7 +5,7 @@ import json
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-
+from sklearn.metrics import accuracy_score
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
@@ -110,6 +110,7 @@ for epoch in range(num_epochs):
         
     if (epoch+1) % 100 == 0:
         print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
+        
 
 
 print(f'final loss: {loss.item():.4f}')
@@ -126,4 +127,4 @@ data = {
 FILE = "data.pth"
 torch.save(data, FILE)
 
-print(f'training complete. file saved to {FILE}')
+print(f'file saved to {FILE}')

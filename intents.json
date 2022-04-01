@@ -11,11 +11,24 @@
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
-        "Bonjour, puisse vous aider",
+        "Bonjour, Comment puis-je vous aider?",
         "Salut !",
         "Bonjour, avez-vous une demande?"
 
+      ]
+    },
+    {
+      "tag": "cava",
+      "patterns": ["comment ça va?", "vous allez bien?", "ça va?" ],
+      "responses": [
+        "trés bien, merci!"
+      ]
+    },
+    {
+      "tag": "EFREI",
+      "patterns": ["Des infos supplémentaires sur EFREI Paris", "EFREI PARIS", "inforamtion sur l'école","Des inforamtions sur EFREI Paris" ],
+      "responses": [
+        "Vous pouvez trouver toutes les informations sur l'école avec ce lien: https://www.efrei.fr/"
       ]
     },
     {
